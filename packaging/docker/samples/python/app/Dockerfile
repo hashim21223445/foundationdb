@@ -20,7 +20,7 @@
 ARG FDB_VERSION
 
 FROM foundationdb/foundationdb:${FDB_VERSION} as fdb
-FROM python:3.8-slim
+FROM python:3.14.1-slim
 
 RUN apt-get update; apt-get install -y dnsutils curl && rm -rf /var/lib/apt/lists/*
 
