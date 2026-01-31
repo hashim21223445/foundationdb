@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-FROM amazonlinux:2023.10.20260105.0 as base
+FROM amazonlinux:2023.10.20260120.4 as base
 
 RUN yum install -y \
     bind-utils-9.11.4-26.P2.amzn2.5.2 \
